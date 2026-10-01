@@ -14,13 +14,13 @@ function userYears(){
 const userInput = prompt("Сколько вам лет?"); 
 
 // В данном случае просто вернем пустую строку для завершения работы функции.
-    if (input === null) {
+    if (userInput === null) {
         return "";
     }
 
     //  Преобразуем введенную строку в целое число.
    
-    const age = parseInt(input, 10);
+    const age = parseInt(userInput, 10);
 
      
     // Сначала проверим, что это вообще число.
